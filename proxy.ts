@@ -1,6 +1,6 @@
 import { Server } from "https://deno.land/std/http/server.ts";
 
-const TARGET = "https://api.openai.com";
+const TARGET = "https://gh.lovemoe.net"; 🔄  ❓
 const handler = async (request: Request) => {
   const url = new URL(request.url);
   const targetUrl = new URL(TARGET + url.pathname + url.search);
